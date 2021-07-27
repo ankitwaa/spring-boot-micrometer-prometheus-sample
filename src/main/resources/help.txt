@@ -1,0 +1,8 @@
+# Refer this tutorial- https://www.mokkapps.de/blog/monitoring-spring-boot-application-with-micrometer-prometheus-and-grafana-using-custom-metrics
+
+# We need to add micrometer prometheus dependency to expose prometheus endpoint
+
+# We need to start prometheus, also we need to configure the target in prometheus.yml to fetch the
+  metrics from application
+
+# We need to also start the Graphana. We need to set Graphana datasource to Prometheus(Time Series Database)
